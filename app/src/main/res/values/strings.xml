@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">广告彩铃</string>
+    <string name="text_tts_source">text_tts_source</string>
+    <string name="tts_name1">晓燕</string>
+    <string name="tts_name2">小不点</string>
+    <string name="tts_name3">程序员</string>
+    <string name="tts_name4">大不点</string>
+    <string name="tts_demo_title">TTS演示Demo</string>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
+            <solid android:color="#0DCCCCCC" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
+            <solid android:color="#10CCCCCC" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
+            <solid android:color="#15CCCCCC" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
+            <solid android:color="#20CCCCCC" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
+            <solid android:color="#30CCCCCC" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+    <!--背景颜色-->
+
+    <!--<item>-->
+        <!--<shape>-->
+            <!--<solid android:color="@color/color_ffffff" />-->
+            <!--<corners android:topLeftRadius="4dp"-->
+                <!--android:bottomLeftRadius="4dp"/>-->
+            <!--&lt;!&ndash;<solid android:color="#E8E8E8"></solid>&ndash;&gt;-->
+            <!--&lt;!&ndash;<corners android:radius="3dp" />&ndash;&gt;-->
+        <!--</shape>-->
+    <!--</item>-->
+
+    <!--&lt;!&ndash;底部阴影   必须计算控件的高度设置距离top的高度，&ndash;&gt;-->
+    <!--<item-->
+        <!--android:height="4dp"-->
+        <!--android:gravity="bottom">-->
+        <!--<shape>-->
+            <!--<corners-->
+                <!--android:bottomLeftRadius="4dp"-->
+                <!--android:bottomRightRadius="4dp" />-->
+            <!--<gradient-->
+                <!--android:angle="90"-->
+                <!--android:endColor="#E8E8E8"-->
+                <!--android:startColor="#FFFFFF" />-->
+        <!--</shape>-->
+    <!--</item>-->
+
+    <!-- 灰色阴影 -->
+    <!--<item-->
+        <!--android:left="2dp"-->
+        <!--android:top="4dp">-->
+        <!--<shape>-->
+            <!--&lt;!&ndash;<solid android:color="@android:color/darker_gray" />&ndash;&gt;-->
+            <!--<solid android:color="#E8E8E8" />-->
+            <!--<corners android:radius="10dp" />-->
+        <!--</shape>-->
+    <!--</item>-->
+    <!-- 白色前景 -->
+    <!--<item-->
+        <!--android:bottom="4dp"-->
+        <!--android:right="2dp">-->
+        <!--<shape>-->
+            <!--<solid android:color="#FFFFFF" />-->
+            <!--<corners android:radius="10dp" />-->
+        <!--</shape>-->
+    <!--</item>-->
+
+</layer-list>

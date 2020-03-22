@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="20dp">
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:text="@string/tts_demo_title"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:textSize="28dp"/>-->
+    <EditText
+        android:id="@+id/tts_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_search_list"
+        android:gravity="top|left"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+        <LinearLayout
+            android:id="@+id/profile_image1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/vcn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/profile1"
+                app:civ_border_color="#4CAF50"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:id="@+id/vcn_name1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:text="@string/tts_name1"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/profile_image2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/vcn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/profile2"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:id="@+id/vcn_name2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:text="@string/tts_name2"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/profile_image3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/vcn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/profile3"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:id="@+id/vcn_name3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:text="@string/tts_name3"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/profile_image4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/vcn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/profile4"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:id="@+id/vcn_name4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:text="@string/tts_name4"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/editText"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:gravity="center_horizontal"
+            android:text="音量"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+            android:id="@+id/volume_seekbar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:dsb_value="50"
+            app:dsb_max="100"
+            app:dsb_min="1" />
+
+        <TextView
+            android:id="@+id/volume_textview"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="50" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="语速"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+            android:id="@+id/speed_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:dsb_value="50"
+            app:dsb_max="100"
+            app:dsb_min="1" />
+
+        <TextView
+            android:id="@+id/speed_textview"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="正常" />
+    </LinearLayout>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btn_tts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:text="开始播报"
+        android:textColor="@color/text_color_primary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        fbutton:buttonColor="@color/fbutton_color_concrete"
+        fbutton:cornerRadius="5dp"
+        fbutton:shadowColor="@color/fbutton_color_asbestos"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp" />
+
+</LinearLayout>
